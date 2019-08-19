@@ -54,7 +54,12 @@ const Countries = () => {
                 {
                     allcountries.map( (country, i) => (
                         <SingleCountry key={i} to={`/countries/${country.code}`}>
-                            <CountryCard name={`${country.name}`} csscode={country.code.toLowerCase()} />
+                            <CountryCard 
+                                csscode={country.code.toLowerCase()} 
+                                name={`${country.name}`}
+                                continent={`${country.continent.name}`}
+                                langs={country.languages}
+                            />
                         </SingleCountry>
                     ))
                 }
