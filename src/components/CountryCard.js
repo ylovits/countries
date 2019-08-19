@@ -18,11 +18,18 @@ const CountryInfoCard = styled.div`
     }
 `;
 
+const CountryFlag = styled.div`
+    margin: 1rem;
+    height: 48px;
+    width: 64px;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px #060e2a;
+`;
 
 const CountryCard = (props) => {
     return(
         <React.Fragment>
-            <CountryInfoCard>{props.name}</CountryInfoCard>
+            <CountryInfoCard>{props.name}<CountryFlag className={`flag-icon-background flag-icon-${props.csscode}`} /></CountryInfoCard>
         </React.Fragment>
     )
 }

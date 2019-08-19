@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/react-hooks';
 import { gql } from 'apollo-boost';
 import styled from 'styled-components';
+import "../../node_modules/flag-icon-css/css/flag-icon.min.css"
 import { PageContainer, Message, LoadingImg } from './Global';
 import CountryCard from './CountryCard';
 
@@ -53,7 +54,7 @@ const Countries = () => {
                 {
                     allcountries.map( (country, i) => (
                         <SingleCountry key={i} to={`/countries/${country.code}`}>
-                            <CountryCard name={`${country.name}`} />
+                            <CountryCard name={`${country.name}`} csscode={country.code.toLowerCase()} />
                         </SingleCountry>
                     ))
                 }
