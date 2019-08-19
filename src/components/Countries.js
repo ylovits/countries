@@ -9,7 +9,6 @@ import CountryCard from './CountryCard';
 
 
 const CountriesGrid = styled.section`
-  padding-top:50px;
   @media(min-width: 768px) {
       width: calc(100% - 1rem);
       flex-wrap: wrap;
