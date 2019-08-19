@@ -1,16 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import PageContainer from './Global';
 
 const Title = styled.h1`
   font-family: "Lobster Two", cursive;
   font-size: 1.5rem;
   text-align: center;
-  color: #000;
+  color: #ffffff;
 `;
 
 const NotFound = () =>{
     return(
-        <Title>Page Not Found!</Title>
+        <PageContainer>
+            <Title>Page Not Found!</Title>
+        </PageContainer>
     )
 }
 

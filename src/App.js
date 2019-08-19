@@ -5,6 +5,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import './App.scss';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
+import Header from './components/Header';
 
 const client = new ApolloClient({
   uri: 'https://countries.trevorblades.com'
@@ -15,11 +16,18 @@ const App = () => {
     <BrowserRouter>
       <ApolloProvider client={client}>
         <Switch>
-            <Route path='/' component={Home} exact />
-            {/* <Route path='/countries/:code' component={CountryPage} />
-            <Route path='/countries' component={Countries} />*/}
-            <Route component={NotFound} /> 
-          </Switch>
+          <Route 
+            path='/' 
+            render={(props) => <React.Fragment><Header {...props} activelink='activehome' /><Home /></React.Fragment>} 
+            exact
+          />
+          {/* <Route path='/countries/:code' component={CountryPage} />
+          <Route 
+            path='/countries' 
+            render={(props) => <React.Fragment><Header {...props} activelink='activecountries' /><Countries /></React.Fragment>} 
+          /> */}
+          <Route render={(props) => <React.Fragment><Header {...props} activelink='' /><NotFound /></React.Fragment>} />
+        </Switch>
       </ApolloProvider>
     </BrowserRouter>
   );
