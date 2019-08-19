@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import PageContainer from './Global';
+import { PageContainer } from './Global';
 
 const Title = styled.h1`
   font-family: "Lobster Two", cursive;

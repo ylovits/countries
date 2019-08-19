@@ -13,4 +13,23 @@ const PageContainer = styled.div`
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#25313d",endColorstr="#263545",GradientType=1);
 `;
 
-export default PageContainer;
+const Message = styled.h1`
+    text-align:center;
+    color:#8797a9;
+    font-family: sans-serif;
+    text-transform:Uppercase;
+    font-size:2rem;
+`;
+
+
+const LoadingImg = styled.div`
+    margin: 0px auto;
+    border-radius: 50%;
+    border-top:4px solid #465c73;
+    width:50px;
+    height: 50px;
+    animation: 1.64s loading infinite linear;
+    transform: translate(-50%, -50%)
+`;
+
+export { PageContainer, Message, LoadingImg };
