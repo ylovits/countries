@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/front-end/static/css/main.dfc581b6.chunk.css",
-    "main.js": "/front-end/static/js/main.fba89eeb.chunk.js",
-    "main.js.map": "/front-end/static/js/main.fba89eeb.chunk.js.map",
-    "runtime~main.js": "/front-end/static/js/runtime~main.299409ae.js",
-    "runtime~main.js.map": "/front-end/static/js/runtime~main.299409ae.js.map",
-    "static/css/2.99e95789.chunk.css": "/front-end/static/css/2.99e95789.chunk.css",
-    "static/js/2.68ac8988.chunk.js": "/front-end/static/js/2.68ac8988.chunk.js",
-    "static/js/2.68ac8988.chunk.js.map": "/front-end/static/js/2.68ac8988.chunk.js.map",
-    "index.html": "/front-end/index.html",
-    "precache-manifest.07db5416dfc817f307a0b6abe02f96c8.js": "/front-end/precache-manifest.07db5416dfc817f307a0b6abe02f96c8.js",
-    "service-worker.js": "/front-end/service-worker.js",
-    "static/css/2.99e95789.chunk.css.map": "/front-end/static/css/2.99e95789.chunk.css.map",
-    "static/css/main.dfc581b6.chunk.css.map": "/front-end/static/css/main.dfc581b6.chunk.css.map",
-    "static/media/flag-icon.min.css": "/front-end/static/media/zw.ad4ad36d.svg"
+    "main.css": "/countries/static/css/main.dfc581b6.chunk.css",
+    "main.js": "/countries/static/js/main.d53e313e.chunk.js",
+    "main.js.map": "/countries/static/js/main.d53e313e.chunk.js.map",
+    "runtime~main.js": "/countries/static/js/runtime~main.d4039ed7.js",
+    "runtime~main.js.map": "/countries/static/js/runtime~main.d4039ed7.js.map",
+    "static/css/2.b772488d.chunk.css": "/countries/static/css/2.b772488d.chunk.css",
+    "static/js/2.685e6cfb.chunk.js": "/countries/static/js/2.685e6cfb.chunk.js",
+    "static/js/2.685e6cfb.chunk.js.map": "/countries/static/js/2.685e6cfb.chunk.js.map",
+    "index.html": "/countries/index.html",
+    "precache-manifest.f866b5e302bc48c99873912a3f65ca85.js": "/countries/precache-manifest.f866b5e302bc48c99873912a3f65ca85.js",
+    "service-worker.js": "/countries/service-worker.js",
+    "static/css/2.b772488d.chunk.css.map": "/countries/static/css/2.b772488d.chunk.css.map",
+    "static/css/main.dfc581b6.chunk.css.map": "/countries/static/css/main.dfc581b6.chunk.css.map",
+    "static/media/flag-icon.min.css": "/countries/static/media/zw.ad4ad36d.svg"
   }
 }
